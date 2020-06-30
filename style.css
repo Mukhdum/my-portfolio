@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0px;;
 }
 
 h1 {
@@ -7,4 +8,85 @@ h1 {
 }
 .highlight-name {
     color: #fa983a;
+}
+
+.text-area {
+    width: 40%;
+    float: left;
+    margin-left: 20px;
+    padding-left: 2%;
+}
+.text-area h1 {
+    line-height: 1;
+}
+.iamage-area {
+    width: 40%;
+    overflow: hidden;
+    margin: auto;
+    padding-left: 10%;
+    
+}
+.iamage-area img {
+    width: 100%;
+    
+
+}
+.container {
+    padding-top: 2%;
+    background-image: url("developer-portfolio/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.info-area {
+    margin-bottom: 50px;;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(to right,rgb(255, 63, 52),rgb(255, 94, 87));
+    border: 1px solid #464b44;
+    padding: 5px 60px;
+    color: black;
+    border-radius: 5px;
+    letter-spacing: 4px;
+    font-weight: 900;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.link-button:hover {
+    background-image: linear-gradient(to right,rgb(255, 94, 87), rgb(255, 63, 52));
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 900;
+
+}
+
+/* main-area-start */
+
+.main-area-image {
+    width: 40%;
+    float: left;
+    margin: auto;
+    padding-right: 10%;
+}
+
+.main-area-image img {
+    width: 100%;
+    padding-left: 8%;
+}
+
+.main-area-text {
+    width: 40%;
+    float: left;
+    margin-left: 20px;
+    padding-left: 2%;
+    color: dimgray;
+}
+.main-area-container {
+    padding-top: 8px;
+    background-image: url("developer-portfolio/dream-bg.png");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
